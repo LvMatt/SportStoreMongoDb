@@ -15,15 +15,12 @@ namespace SportStoreMongoAsp.Models
         public string Id { get; set; }
         public string Description { get; set; }
         public string Name { get; set; }
+        public bool Show { get { return show = true; } set => show = value; }
 
-        public bool Show { get { return show = true; }  set => show = value; }
         public string OverallRating { get; set; }
         public int Price { get; set; }
         public int Weight { get; set; }
-        public string ProductCategoriesType { get; set; }
-        public string ProductCategoriesDescription { get; set; }
-
-        
+        public ProductRatings ProductRatings { get; set; }
 
     }
 }

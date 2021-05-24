@@ -52,9 +52,17 @@
               "target": "Package",
               "version": "[2.12.3, )"
             },
+            "MongoODM": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
             }
           },
           "imports": [

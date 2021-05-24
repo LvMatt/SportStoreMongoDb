@@ -23,7 +23,6 @@ C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\bin\Debug\net5
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
-C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\SportStoreMongoAsp.csprojAssemblyReference.cache
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\SportStoreMongoAsp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\SportStoreMongoAsp.AssemblyInfoInputs.cache
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\SportStoreMongoAsp.AssemblyInfo.cs
@@ -39,3 +38,5 @@ C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\ref\SportStoreMongoAsp.dll
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\SportStoreMongoAsp.pdb
 C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\SportStoreMongoAsp.genruntimeconfig.cache
+C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\bin\Debug\net5.0\MongoDB.Driver.Legacy.dll
+C:\Users\45501\source\repos\SportStoreMongoAsp\SportStoreMongoAsp\obj\Debug\net5.0\SportStoreMongoAsp.csprojAssemblyReference.cache

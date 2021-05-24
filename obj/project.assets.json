@@ -40,6 +40,20 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "mongocsharpdriver/2.12.3": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.12.3",
+          "MongoDB.Driver": "2.12.3",
+          "MongoDB.Driver.Core": "2.12.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/MongoDB.Driver.Legacy.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.Legacy.dll": {}
+        }
+      },
       "MongoDB.Bson/2.12.3": {
         "type": "package",
         "dependencies": {
@@ -137,6 +151,18 @@
             "assetType": "native",
             "rid": "win"
           }
+        }
+      },
+      "MongoODM/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Driver": "2.12.2"
+        },
+        "compile": {
+          "lib/net5.0/MongoODM.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/MongoODM.dll": {}
         }
       },
       "SharpCompress/0.23.0": {
@@ -328,6 +354,27 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "mongocsharpdriver/2.12.3": {
+      "sha512": "os5aKYwW0nQTvaW/ujSMb6RkPMDH6SQfLmCGVUol1m7uG0QvtBOeiWu32wQtKyKcrhIegny6JluSujh4AZ3+1g==",
+      "type": "package",
+      "path": "mongocsharpdriver/2.12.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net452/MongoDB.Driver.Legacy.dll",
+        "lib/net452/MongoDB.Driver.Legacy.xml",
+        "lib/netstandard1.5/MongoDB.Driver.Legacy.dll",
+        "lib/netstandard1.5/MongoDB.Driver.Legacy.xml",
+        "lib/netstandard2.0/MongoDB.Driver.Legacy.dll",
+        "lib/netstandard2.0/MongoDB.Driver.Legacy.xml",
+        "lib/netstandard2.1/MongoDB.Driver.Legacy.dll",
+        "lib/netstandard2.1/MongoDB.Driver.Legacy.xml",
+        "mongocsharpdriver.2.12.3.nupkg.sha512",
+        "mongocsharpdriver.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "MongoDB.Bson/2.12.3": {
       "sha512": "1gkSkX+hlyeNMvrcx4JeeGnTqAmOctoekczmASEzxuQiA15wo2YKm40TVx/pFbZGV57ekguzF8w2nurO5+2IQg==",
       "type": "package",
@@ -444,6 +491,18 @@
         "runtimes/linux/native/libmongocrypt.so",
         "runtimes/osx/native/libmongocrypt.dylib",
         "runtimes/win/native/mongocrypt.dll"
+      ]
+    },
+    "MongoODM/1.0.1": {
+      "sha512": "dMjZufAnEHjrRAllc97cZz8DCnK/L85n08xLbdXQRyXar3YKCI6ka1BASdloUP83ROQ5BGcQ9La3YWl+OpjgAQ==",
+      "type": "package",
+      "path": "mongoodm/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/MongoODM.dll",
+        "mongoodm.1.0.1.nupkg.sha512",
+        "mongoodm.nuspec"
       ]
     },
     "SharpCompress/0.23.0": {
@@ -628,7 +687,9 @@
     "net5.0": [
       "MongoDB.Bson >= 2.12.3",
       "MongoDB.Driver >= 2.12.3",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "MongoODM >= 1.0.1",
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "mongocsharpdriver >= 2.12.3"
     ]
   },
   "packageFolders": {
@@ -683,9 +744,17 @@
             "target": "Package",
             "version": "[2.12.3, )"
           },
+          "MongoODM": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
+          },
+          "mongocsharpdriver": {
+            "target": "Package",
+            "version": "[2.12.3, )"
           }
         },
         "imports": [

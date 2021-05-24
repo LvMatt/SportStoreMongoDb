@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tOl4GKFsnevoYQncyZfUmsBai4YSrY9oLx4ELcAKc9R4wtykbZjSBYxSNgadtahonC6pRAahFzs/8k1odOZqkQ==",
+  "dgSpecHash": "0+Wsxfw8ppkAcoYgTddPGm9QQZ+JCU9mLoDZbs8oNJdGtVaF8fZmsQqbZTHZBa4o+mZxMTGHywVr0RCruYf1mg==",
   "success": true,
   "projectFilePath": "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\SportStoreMongoAsp.csproj",
   "expectedPackageFiles": [
@@ -8,10 +8,12 @@
     "C:\\Users\\45501\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\45501\\.nuget\\packages\\mongocsharpdriver\\2.12.3\\mongocsharpdriver.2.12.3.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\mongodb.bson\\2.12.3\\mongodb.bson.2.12.3.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\mongodb.driver\\2.12.3\\mongodb.driver.2.12.3.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\mongodb.driver.core\\2.12.3\\mongodb.driver.core.2.12.3.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.1\\mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "C:\\Users\\45501\\.nuget\\packages\\mongoodm\\1.0.1\\mongoodm.1.0.1.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\45501\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

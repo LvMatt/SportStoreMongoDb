@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using SportStoreMongoAsp.Models;
-using SportStoreMongoAsp.Services;
+using SportStoreMongoAsp.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +10,11 @@ namespace SportStoreMongoAsp.Controllers
 {
     [ApiController]
     [Route("api/products")]
-    public class ProductsController : ControllerBase
+    public class ProductController : Controller
     {
         private readonly IProductRepository _productRepository;
 
-        public ProductsController(IProductRepository productRepository)
+        public ProductController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
         }
@@ -23,15 +22,15 @@ namespace SportStoreMongoAsp.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Products>> GetAllProducts()
         {
-            var productItems = _productRepository.GetAllProducts();
-            return Ok(productItems);
+            var products = _productRepository.GetAllProducts();
+            return Ok(products);
         }
 
         [HttpPost]
         public ActionResult<IEnumerable<Products>> AddProduct(Products product)
         {
-            var productItems = _productRepository.AddProduct(product);
-            return Ok(productItems);
+            var newProduct = _productRepository.AddProduct(product);
+            return Ok(newProduct);
         }
     }
 }

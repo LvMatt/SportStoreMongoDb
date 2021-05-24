@@ -28,6 +28,7 @@
           "MongoDB.Bson": "2.12.3",
           "MongoDB.Driver": "2.12.3",
           "Swashbuckle.AspNetCore": "5.6.3",
+          "mongocsharpdriver": "2.12.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -341,6 +342,22 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
+      "mongocsharpdriver/2.12.3": {
+        "dependencies": {
+          "MongoDB.Bson": "2.12.3",
+          "MongoDB.Driver": "2.12.3",
+          "MongoDB.Driver.Core": "2.12.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.Legacy.dll": {
+            "assemblyVersion": "2.12.3.0",
+            "fileVersion": "2.12.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/MongoDB.Driver.Legacy.dll": {}
         }
       },
       "MongoDB.Bson/2.12.3": {
@@ -2242,6 +2259,13 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "mongocsharpdriver/2.12.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-os5aKYwW0nQTvaW/ujSMb6RkPMDH6SQfLmCGVUol1m7uG0QvtBOeiWu32wQtKyKcrhIegny6JluSujh4AZ3+1g==",
+      "path": "mongocsharpdriver/2.12.3",
+      "hashPath": "mongocsharpdriver.2.12.3.nupkg.sha512"
     },
     "MongoDB.Bson/2.12.3": {
       "type": "package",

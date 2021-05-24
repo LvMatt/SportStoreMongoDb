@@ -9,6 +9,9 @@ namespace SportStoreMongoAsp
 {
     public interface IDbClient
     {
+        IMongoCollection<Customers> GetCustomersCollection();
         IMongoCollection<Products> GetProductsCollection();
+        IMongoCollection<Orders> GetOrdersCollection();
+
     }
 }

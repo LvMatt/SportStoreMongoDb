@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SportStoreMongoAsp.Services
+namespace SportStoreMongoAsp.Services.Interfaces
 {
     public interface IProductRepository
     {

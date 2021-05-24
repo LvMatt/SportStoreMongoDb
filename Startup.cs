@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SportStoreMongoAsp.Services;
+using SportStoreMongoAsp.Services.Interfaces;
 using SportStoreMongoAsp.Services.Repositories;
 using System;
 using System.Collections.Generic;
@@ -29,7 +30,10 @@ namespace SportStoreMongoAsp
         {
             services.AddSingleton<IDbClient, DbClient>();
             services.Configure<SportStoreDbConfig>(Configuration);
-            services.AddTransient<IProductRepository, SqlProductRepository>();
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IProductRepository, ProductsRepository>();
+            services.AddTransient<IOrderRepository, OrdersRepository>();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

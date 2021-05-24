@@ -16,7 +16,10 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "DATABASE_NAME": "SportStoreDB",
-        "Collection": " Products"
+        "ProductsCollection": " Products",
+        "CustomersCollection": " Customers",
+        "OrdersCollection": " Orders"
+
       }
     },
     "SportStoreMongoAsp": {
@@ -28,7 +31,9 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "DATABASE_NAME": "SportStoreDB",
-        "Collection": " Products"
+        "ProductsCollection": " Products",
+        "CustomersCollection": " Customers",
+        "OrdersCollection": " Orders"
       }
     }
   }
