@@ -26,6 +26,14 @@ namespace SportStoreMongoAsp.Controllers
             return Ok(products);
         }
 
+        [HttpGet]
+        [Route("{id}")]
+        public ActionResult<Products> GetOrderById(string id)
+        {
+            Products product = _productRepository.GetProductById(id);
+            return Ok(product);
+        }
+
         [HttpPost]
         public ActionResult<IEnumerable<Products>> AddProduct(Products product)
         {

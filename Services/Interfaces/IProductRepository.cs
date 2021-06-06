@@ -9,6 +9,7 @@ namespace SportStoreMongoAsp.Services.Interfaces
     public interface IProductRepository
     {
         List<Products> GetAllProducts();
+        Products GetProductById(string id);
         Products AddProduct(Products product);
     }
 }

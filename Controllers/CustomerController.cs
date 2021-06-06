@@ -28,14 +28,16 @@ namespace SportStoreMongoAsp.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Customers>> GetCustomerById(string id)
+        [Route("id/{id}")]
+        public ActionResult<Customers> GetCustomerById(string id)
         {
             Customers customer = _productRepository.GetCustomerById(id);
             return Ok(customer);
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Customers>> GetCustomerBySurname(string name)
+        [Route("surname/{name}")]
+        public ActionResult<Customers> GetCustomerBySurname(string name)
         {
             Customers customer = _productRepository.GetCustomerBySurname(name);
             return Ok(customer);

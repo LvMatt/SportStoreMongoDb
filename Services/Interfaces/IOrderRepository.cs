@@ -10,6 +10,7 @@ namespace SportStoreMongoAsp.Services.Interfaces
     public interface IOrderRepository
     {
         ICollection<Orders> GetAllOrders();
+        Orders GetOrderById(string id);
         Orders AddOrder(Orders order);
 
     }

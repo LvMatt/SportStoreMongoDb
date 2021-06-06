@@ -36,6 +36,10 @@ namespace SportStoreMongoAsp.Services.Repositories
             return _orders.Find(i => i.Show == true).ToList();
         }
 
-        
+        public Orders GetOrderById(string id)
+        {
+            return (Orders)_orders.Find(i => i.Id == id);
+
+        }
     }
 }
