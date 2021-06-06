@@ -9,6 +9,8 @@ namespace SportStoreMongoAsp.Services
     public interface ICustomerRepository
     {
         List<Customers> GetAllCustomers();
+        Customers GetCustomerById(string id);
+        Customers GetCustomerBySurname(string name);
         Customers AddCustomer(Customers customer);
     }
 }

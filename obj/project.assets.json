@@ -54,7 +54,7 @@
           "lib/netstandard2.1/MongoDB.Driver.Legacy.dll": {}
         }
       },
-      "MongoDB.Bson/2.12.3": {
+      "MongoDB.Bson/2.12.4": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
@@ -375,10 +375,10 @@
         "packageIcon.png"
       ]
     },
-    "MongoDB.Bson/2.12.3": {
-      "sha512": "1gkSkX+hlyeNMvrcx4JeeGnTqAmOctoekczmASEzxuQiA15wo2YKm40TVx/pFbZGV57ekguzF8w2nurO5+2IQg==",
+    "MongoDB.Bson/2.12.4": {
+      "sha512": "cQ0DTdKIpPzqDWnu1lTbW7TU8zQkMZ6YkbICcA1x3zDQefPYi0T0WYA/t3VJbowiEH3IKNHsJ4DIFfCt9AOG7A==",
       "type": "package",
-      "path": "mongodb.bson/2.12.3",
+      "path": "mongodb.bson/2.12.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -391,7 +391,7 @@
         "lib/netstandard2.0/MongoDB.Bson.xml",
         "lib/netstandard2.1/MongoDB.Bson.dll",
         "lib/netstandard2.1/MongoDB.Bson.xml",
-        "mongodb.bson.2.12.3.nupkg.sha512",
+        "mongodb.bson.2.12.4.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
@@ -685,7 +685,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "MongoDB.Bson >= 2.12.3",
+      "MongoDB.Bson >= 2.12.4",
       "MongoDB.Driver >= 2.12.3",
       "MongoODM >= 1.0.1",
       "Swashbuckle.AspNetCore >= 5.6.3",
@@ -693,25 +693,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\45501\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\jcoyn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\SportStoreMongoAsp.csproj",
+      "projectUniqueName": "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\SportStoreMongoAsp.csproj",
       "projectName": "SportStoreMongoAsp",
-      "projectPath": "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\SportStoreMongoAsp.csproj",
-      "packagesPath": "C:\\Users\\45501\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\obj\\",
+      "projectPath": "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\SportStoreMongoAsp.csproj",
+      "packagesPath": "C:\\Users\\jcoyn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\45501\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\jcoyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -738,7 +733,7 @@
         "dependencies": {
           "MongoDB.Bson": {
             "target": "Package",
-            "version": "[2.12.3, )"
+            "version": "[2.12.4, )"
           },
           "MongoDB.Driver": {
             "target": "Package",
@@ -775,7 +770,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

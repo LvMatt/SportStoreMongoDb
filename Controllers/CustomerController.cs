@@ -27,6 +27,20 @@ namespace SportStoreMongoAsp.Controllers
             return Ok(customers);
         }
 
+        [HttpGet]
+        public ActionResult<IEnumerable<Customers>> GetCustomerById(string id)
+        {
+            Customers customer = _productRepository.GetCustomerById(id);
+            return Ok(customer);
+        }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<Customers>> GetCustomerBySurname(string name)
+        {
+            Customers customer = _productRepository.GetCustomerBySurname(name);
+            return Ok(customer);
+        }
+
         [HttpPost]
         public ActionResult<IEnumerable<Customers>> AddCustomer(Customers customer)
         {

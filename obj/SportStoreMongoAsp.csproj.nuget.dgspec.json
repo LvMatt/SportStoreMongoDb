@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\SportStoreMongoAsp.csproj": {}
+    "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\SportStoreMongoAsp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\SportStoreMongoAsp.csproj": {
+    "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\SportStoreMongoAsp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\SportStoreMongoAsp.csproj",
+        "projectUniqueName": "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\SportStoreMongoAsp.csproj",
         "projectName": "SportStoreMongoAsp",
-        "projectPath": "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\SportStoreMongoAsp.csproj",
-        "packagesPath": "C:\\Users\\45501\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45501\\source\\repos\\SportStoreMongoAsp\\SportStoreMongoAsp\\obj\\",
+        "projectPath": "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\SportStoreMongoAsp.csproj",
+        "packagesPath": "C:\\Users\\jcoyn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jcoyn\\Documents\\Final-Databases\\SportStoreMongoDb\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\45501\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\jcoyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -46,7 +42,7 @@
           "dependencies": {
             "MongoDB.Bson": {
               "target": "Package",
-              "version": "[2.12.3, )"
+              "version": "[2.12.4, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -83,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
